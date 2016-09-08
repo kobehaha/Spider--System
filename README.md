@@ -4,7 +4,10 @@
 
 # 后端 Webmagic + servlet + json
 # Android 前段 图片缓存 数据解析  二维码扫描 
+
+大致流程如下
 ![image](https://github.com/kobehaha/Spider--System/blob/master/images/1.png)
 ![image](https://github.com/kobehaha/Spider--System/blob/master/images/2.png)
-![image](https://github.com/kobehaha/Spider--System/blob/master/images/3.png)
 ![image](https://github.com/kobehaha/Spider--System/blob/master/images/4.png)
+![image](https://github.com/kobehaha/Spider--System/blob/master/images/3.png)
+
