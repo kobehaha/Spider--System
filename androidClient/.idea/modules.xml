@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Shop4 copy.iml" filepath="$PROJECT_DIR$/Shop4 copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qR_CodeScan/qR_CodeScan.iml" filepath="$PROJECT_DIR$/qR_CodeScan/qR_CodeScan.iml" />
+    </modules>
+  </component>
+</project>

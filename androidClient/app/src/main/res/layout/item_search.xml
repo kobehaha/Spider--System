@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="165dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_gravity="center"
+
+        android:id="@+id/img_shop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:contentDescription="@string/action_settings"
+        android:scaleType="fitXY"
+         />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="@string/titile"
+                android:textColor="@color/black"
+                android:textSize="18sp"></TextView>
+
+            <TextView
+
+                android:id="@+id/tv_shop_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+
+
+                android:textSize="18sp"
+                android:text="@string/no"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="@string/shop"
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_shop_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="@string/no"
+                android:textColor="@color/black"
+                android:textSize="18sp"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:text="@string/price"
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_shop_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:text="@string/no"
+                android:textColor="@color/black"
+                android:textSize="18sp"></TextView>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+.classpath
+.project
+.metadata
+.settings
+build/*
+bin
+lib
+classes
+
